@@ -1,0 +1,39 @@
+{
+  "name": "ledger-connect-widget",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ledgerhq/errors": "^6.10.0",
+    "@ledgerhq/hw-app-eth": "^6.11.0",
+    "@ledgerhq/hw-transport": "^6.11.0",
+    "@ledgerhq/hw-transport-web-ble": "^6.11.0",
+    "@ledgerhq/hw-transport-webusb": "^6.10.0",
+    "@ledgerhq/logs": "^6.10.0",
+    "@ledgerhq/react-ui": "^0.1.0",
+    "@mixer/postmessage-rpc": "^1.1.4",
+    "eip55": "^2.1.0",
+    "ethereumjs-tx": "^2.1.2",
+    "modern-normalize": "^1.1.0",
+    "next": "^11.0.0",
+    "next-i18next": "^8.9.0",
+    "next-transpile-modules": "^8.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-i18next": "^11.12.0",
+    "react-lottie": "^1.2.3",
+    "rxjs": "^7.4.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.3",
+    "eslint": "7",
+    "eslint-config-next": "11.1.2",
+    "typescript": "^4.4.4"
+  }
+}
